@@ -1,4 +1,4 @@
-from ruby:latest
+from ruby:alpine
 
 RUN gem install mailcatcher --no-rdoc --no-ri
 EXPOSE 25 80
